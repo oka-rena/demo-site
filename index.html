@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <!-- Normalize CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Headerコンテンツ -->
+    <header>
+        <h1 class="site-title wrapper">
+            <a href="#">
+                <img src="images/logo.png" alt="MY BLOG">
+            </a>
+        </h1>
+        <nav class="navi">
+            <ul class="navi-list wrapper">
+                <li class="current">BLOG</li>
+                <li>ABOUT</li>
+                <li>APPEARANCE</li>
+                <li>Q&A</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Pickupコンテンツ -->
+    <div id="pickup" class="wrapper container">
+        <article>
+            <p><img src="images/pickup1.png" alt="pickup1"></p>
+            <h2 class="pickup-title">タイトルテキスト1</h2>
+            <div class="readme">
+                <a href="#">READ ME!</a>
+            </div>
+        </article>
+        <article>
+            <p><img src="images/pickup2.png" alt="pickup2"></p>
+            <h2 class="pickup-title">タイトルテキスト2</h2>
+            <div class="readme">
+                <a href="#">READ ME!</a>
+            </div>
+        </article>
+        <article>
+            <p><img src="images/pickup3.png" alt="pickup3"></p>
+            <h2 class="pickup-title">タイトルテキスト3</h2>
+            <div class="readme">
+                <a href="#">READ ME!</a>
+            </div>
+        </article>
+    </div>
+
+    <!-- Mainコンテンツ -->
+    <div class="wrapper container">
+        <main>
+            <article>
+                <h2 class="blog-title">ブログタイトル1</h2>
+                <ul class="blog-meta">
+                    <li>2025-04-04</li>
+                    <li>風景</li>
+                </ul>
+                <p><img src="/images/blog1.png" alt="blog1"></p>
+                <p class="blog-text">
+                    ブログ本文テキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                </p>
+                <div class="readme">
+                    <a href="#">READ ME!</a>
+                </div>
+            </article>
+            <article>
+                <h2 class="blog-title">ブログタイトル2</h2>
+                <ul class="blog-meta">
+                    <li>2025-02-15</li>
+                    <li>仕事</li>
+                </ul>
+                <p><img src="/images/blog2.png" alt="blog2"></p>
+                <p class="blog-text">
+                    ブログ本文テキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                </p>
+                <div class="readme">
+                    <a href="#">READ ME!</a>
+                </div>
+            </article>
+            <article>
+                <h2 class="blog-title">ブログタイトル3</h2>
+                <ul class="blog-meta">
+                    <li>2024-11-03</li>
+                    <li>家族</li>
+                </ul>
+                <p><img src="/images/blog3.png" alt="blog3"></p>
+                <p class="blog-text">
+                    ブログ本文テキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                </p>
+                <div class="readme">
+                    <a href="#">READ ME!</a>
+                </div>
+            </article>
+        </main>
+        <aside id="sidebar">
+            <section class="profile">
+                <p class="profile-icon">
+                    <img src="images/profile-icon.png" alt="icon">
+                </p>
+                <h3>My Name</h3>
+                <p>
+                    プロフィールテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                </p>
+            </section>
+            <section class="ranking">
+                <h3>Ranking</h3>
+                <article>
+                    <p>
+                        <a href="#">
+                            <img src="images/ranking1.png" alt="ranking1">
+                        </a>
+                    </p>
+                    <p>
+                        テキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキスト
+                    </p>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="images/ranking2.png" alt="ranking2">
+                    </a>
+                    <p>
+                        テキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキスト
+                    </p>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="images/ranking3.png" alt="ranking3">
+                    </a>
+                    <p>
+                        テキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキスト
+                    </p>
+                </article>
+            </section>
+            <section class="archive">
+                <h3>Archive</h3>
+                <ul class="archive-list">
+                    <li><a href="#">XXXX年XX月(X)</a></li>
+                    <li><a href="#">XXXX年XX月(X)</a></li>
+                    <li><a href="#">XXXX年XX月(X)</a></li>
+                    <li><a href="#">XXXX年XX月(X)</a></li>
+                    <li><a href="#">XXXX年XX月(X)</a></li>
+                </ul>
+            </section>
+        </aside>
+    </div>
+
+    <!-- Footerコンテンツ -->
+    <footer>
+        <div class="wrapper container">
+            <section class="footer-item">
+                <h3>Menu</h3>
+                <ul class="footer-item-list">
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">APPEARANCE</a></li>
+                    <li><a href="#">Q&A</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </section>
+            <section class="footer-item timeline">
+                <h3>Xタイムライン</h3>
+                <p>
+                    <a class="twitter-timeline" data-height="300" href="https://twitter.com/X?ref_src=twsrc%5Etfw">Tweets by X</a> 
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </p>
+            </section>
+        </div>
+        <p class="copyright">&copy; 2025 MY BLOG.</p>
+    </footer>
+</body>
+</html>
