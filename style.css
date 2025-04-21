@@ -217,8 +217,12 @@ footer {
 }
 
 .footer-about-list {
+    font-size: 0.9rem;
     list-style: none;
     margin-top: 20px;
+}
+.footer-about-list li {
+    margin-bottom: 5px;
 }
 .footer-about-list li::before {
     content: '▶ ';
